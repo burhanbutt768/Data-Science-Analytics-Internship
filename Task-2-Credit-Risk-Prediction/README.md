@@ -10,12 +10,14 @@ Dataset
 Approach: The following steps were performed to complete this task:
 
 1. Loaded the dataset using Pandas.
-2. Handled missing values using appropriate techniques such as imputation.
-3. Performed exploratory data analysis (EDA) to understand key features like loan amount, education, and income.
-4. Encoded categorical variables for model compatibility.
-5. Split the dataset into training and testing sets.
-6. Trained a classification model using Logistic Regression (or Decision Tree).
-7. Evaluated the model using accuracy score and confusion matrix.
+2. Explored the dataset to understand structure, data types, and missing values.
+3. Handled missing values using median for numerical features and mode for categorical features.
+4. Performed exploratory data analysis (EDA) using visualizations.
+5. Encoded categorical variables using Label Encoding.
+6. Removed irrelevant columns such as Loan_ID.
+7. Split the dataset into training and testing sets.
+8. Trained a Logistic Regression model for binary classification.
+9. Evaluated the model using accuracy score and confusion matrix.
 
 Results and Insights
 - The model successfully classified loan applicants into default and non-default categories.
